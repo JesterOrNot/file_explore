@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: cargo build
+    command: gosh
+vscode:
+  extensions:
+    - hbenl.vscode-test-explorer@2.15.0:koqDUMWDPJzELp/hdS/lWw==
+    - Swellaby.vscode-rust-test-adapter@0.11.0:Xg+YeZZQiVpVUsIkH+uiiw==
+    - serayuzgur.crates@0.4.7:HMkoguLcXp9M3ud7ac3eIw==
+    - serayuzgur.crates@0.4.7:HMkoguLcXp9M3ud7ac3eIw==
+    - bungcip.better-toml@0.3.2:3QfgGxxYtGHfJKQU7H0nEw==
